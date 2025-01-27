@@ -8,7 +8,7 @@ const Events: NextPage = () => {
     <>
       <PageMetadata
         title='Events'
-        description='View upcoming and past security events in the Ethereum ecosystem'
+        description='View upcoming and past events in the Ethereum ecosystem'
       />
 
       <main>

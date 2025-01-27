@@ -1,5 +1,6 @@
 import { Box, Link, Stack, Text } from '@chakra-ui/react';
 import { FC } from 'react';
+import { EMAIL } from '../../constants'
 
 export const Footer: FC = () => {
   return (
@@ -9,7 +10,7 @@ export const Footer: FC = () => {
     >
       <Stack spacing={4} alignItems={{ base: 'center', md: 'flex-start' }}>
         <Link
-          href='mailto:security@ethereum.org'
+          href={"mailto:" + EMAIL}
           display="inline-flex"
           alignItems="center"
           color="gray.500"
@@ -21,7 +22,7 @@ export const Footer: FC = () => {
           transition="color 0.2s"
         >
           <Box as="span" mr={2}>📧</Box>
-          security@ethereum.org
+          {EMAIL}
         </Link>
         
         <Text 

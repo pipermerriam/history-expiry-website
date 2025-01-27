@@ -1,4 +1,4 @@
 module.exports = {
-  siteUrl: 'https://security.ethereum.org',
+  siteUrl: 'https://example.org',
   generateRobotsTxt: true
 };
